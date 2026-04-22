@@ -1,0 +1,35 @@
+* {
+    font-family: Garamond;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 50px;
+}
+
+.three-sec-fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
